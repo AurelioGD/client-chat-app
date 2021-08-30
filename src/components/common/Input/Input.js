@@ -1,8 +1,8 @@
-import email from "../../svgs/email.svg";
-import name from "../../svgs/name.svg";
-import password from "../../svgs/password.svg";
-import user from "../../svgs/user.svg";
-import { Container, IconContainer, InputContainer } from './inputStyles'
+import email from "../../assets/svgs/email.svg";
+import name from "../../assets/svgs/name.svg";
+import password from "../../assets/svgs/password.svg";
+import user from "../../assets/svgs/user.svg";
+import { Container, IconContainer, StyledInput } from './inputStyles'
 
 const typeInputs = {
     name,
@@ -20,7 +20,7 @@ const Input = ({typeInput='user', typeIcon, textPlaceholder}) => {
             <IconContainer>
                 <img src={icon} alt={typeInputs+" Icon"}/>
             </IconContainer>
-            <InputContainer placeholder={`type your ${typeInput}...`} />       
+            <StyledInput placeholder={`type your ${typeInput}...`} />       
         </Container>
     )
 }

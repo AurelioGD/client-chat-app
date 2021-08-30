@@ -16,7 +16,7 @@ export const IconContainer = styled(defaultStyles)`
     background-color: #424242;
     width: 51px;
 `
-export const InputContainer = styled.input`
+export const StyledInput = styled.input`
     font-size: 18px;
     border: none;
     font-family: 'Roboto', sans-serif;
