@@ -1,8 +1,9 @@
+import Input from "./components/common/Input";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
+      <Input typeInput="password"/>
     </div>
   );
 }
