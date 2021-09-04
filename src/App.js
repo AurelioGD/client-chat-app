@@ -14,7 +14,7 @@ function App() {
         <Button color="dark">Hola</Button>
         <Input typeInput="email"/>
         <SecondaryTitle fontColor="purple" >Hola Mundo</SecondaryTitle>
-        <ShowUser></ShowUser>
+        <ShowUser srcImg="https://cdn.alfabetajuega.com/wp-content/uploads/2020/10/mikasa-ataque-780x405.jpg" text="Mikasa"/>
       </div>
     </ThemeProvider>
   );
