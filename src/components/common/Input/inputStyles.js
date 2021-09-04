@@ -20,7 +20,7 @@ export const IconContainer = styled(defaultStyles)`
 export const StyledInput = styled.input`
     font-size: 18px;
     border: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: ${(props) => props.theme.fontsFamily[props.fontFamily] || props.theme.fontsFamily["Roboto"]};
     font-weight: 700;
     padding: 24.5px 5px 24.5px 12px;
     &:focus{

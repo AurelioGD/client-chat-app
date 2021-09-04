@@ -8,7 +8,7 @@ const Button = styled.button`
     color: ${props => props.theme.colors[props.fontColor] || props.theme.colors["white"]};; 
     border: none;
     cursor: pointer;
-    font-family: "Roboto",sans-serif;
+    font-family: ${(props) => props.theme.fontsFamily[props.fontFamily] || props.theme.fontsFamily["Roboto"]} ;
     &:hover{
         opacity: 0.9;
     }
