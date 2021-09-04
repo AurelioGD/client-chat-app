@@ -5,5 +5,9 @@ module.exports = {
         "green" : "#00695C",
         "orange" : "#FF8F00",
         "white" : "#fff"
+    },
+    fontsFamily:{
+        "Roboto" : "'Roboto',sans-serif",
+        "Lobster" : "'Lobster', cursive"
     }
 }
