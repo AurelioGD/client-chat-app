@@ -13,7 +13,7 @@ const typeInputs = {
 
 const Input = ({typeInput='user', typeIcon, textPlaceholder}) => {
 
-    const icon=typeInputs[typeInput]
+    const icon = typeInputs[typeInput]
 
     return (
         <Container>

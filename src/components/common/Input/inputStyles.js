@@ -1,4 +1,5 @@
 import styled from "styled-components"
+
 export const defaultStyles = styled.div`
     height: 51px;
     `
@@ -13,7 +14,7 @@ export const IconContainer = styled(defaultStyles)`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #424242;
+    background-color: ${(props) => props.theme.colors["purple"]};
     width: 51px;
 `
 export const StyledInput = styled.input`
