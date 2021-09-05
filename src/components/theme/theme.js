@@ -9,5 +9,8 @@ module.exports = {
     fontsFamily:{
         "Roboto" : "'Roboto',sans-serif",
         "Lobster" : "'Lobster', cursive"
+    },
+    shades:{
+        "default":"rgba(99, 99, 99, 0.5) 0px 0px 3px 0px"
     }
 }
