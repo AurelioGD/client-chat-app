@@ -5,6 +5,7 @@ export const defaultStyles = styled.div`
 `;
 
 export const InputSubmit = styled.input`
+    display: "block";
     width: ${props => props.widthSize || "140px"};
     height: ${props => props.heightSize || "50px"};
     margin: ${props => props.margin || "0"};

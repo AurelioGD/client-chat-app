@@ -15,7 +15,7 @@ const Input = ({typeInput='user', margin,children}) => {
 
     const icon = typeInputs[typeInput]
 
-    if(typeInput==="submit") return ( <InputSubmit type="submit" margin={margin}>{children}</InputSubmit> )
+    if(typeInput==="submit") return ( <InputSubmit type="submit" margin={margin}>{children}</InputSubmit>)
 
     return (
         <Container margin={margin} widthSize="300px" heigthSize="50px" display="flex" shadow="default">
