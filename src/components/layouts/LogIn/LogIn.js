@@ -4,9 +4,6 @@ import Input from "../../common/Input/Input"
 import SecondaryTitle from "../../common/SecondaryTitle"
 const LogIn = () => {
 
-    const handlerChange = (e) => {
-         
-    }
 
     const handlerSumbit = (e) => {
         e.preventDefault()
