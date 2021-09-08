@@ -1,6 +1,6 @@
 import { Container } from "../../DefaultComponentStyles/Container"
 import BasicNav from "../../layouts/BasicNav/BasicNav"
-import LogInForm from "../../layouts/LogIn/LogIn"
+import LogInForm from "../../layouts/LogInForm/LogInForm"
 const LogIn = () => {
     return (
         <Container widthSize="100%" heigthSize="100%">

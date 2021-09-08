@@ -1,8 +1,8 @@
 import { Container, ContainerTitle, ContainerContent } from "../../DefaultComponentStyles/Container"
-import Ask from "./components/Ask/Ask"
+import Ask from "../../common/Ask/Ask"
 import Input from "../../common/Input/Input"
 import SecondaryTitle from "../../common/SecondaryTitle"
-const LogIn = () => {
+const LogInForm = () => {
 
 
     const handlerSumbit = (e) => {
@@ -24,10 +24,10 @@ const LogIn = () => {
                         <Input typeInput="submit" margin="10px auto"/>
                     </Container>
                 </form>
-                <Ask></Ask>
+                <Ask to="/sign-up" text="You do not have an account?" textLink="Sign up"/>
             </ContainerContent>
         </Container>
     )
 }
 
-export default LogIn
+export default LogInForm
